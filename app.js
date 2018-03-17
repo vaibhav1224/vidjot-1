@@ -21,7 +21,7 @@ const db = require('./config/database');
 
 require('./config/passport')(passport);
 //Connect to mongoose
-mongoose.connect(db.mongoURI,{useMongoClient: true})
+mongoose.connect(db.mongoURI)
 .then(() => console.log('MondoDb Connected ....'))
 .catch(err => console.log(err));
 
