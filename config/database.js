@@ -1,6 +1,6 @@
 if(process.env.NODE_ENV === 'production'){
 
-module.exports = {mongoURI : 'mongodb://vaibhav1224:Sad1234$@ds141657.mlab.com:41657/vidjot-prod'}
+module.exports = {mongoURI : 'mongodb://vaibhav1224:123456$@ds141657.mlab.com:41657/vidjot-prod'}
 
 }
 else{
